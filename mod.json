@@ -1,0 +1,15 @@
+{
+    "Name": "Flashpoint_The_Raid_VIP_Override",
+    "Enabled": true,
+	
+    "Version": "1.0.1",
+    "Description": "Flashpoint - The Raid: Fixes LRM/SRM Carriers for users with VehicleImprovementProject mods.",
+    "Author": "amechwarrior",
+
+    "DependsOn": [ "Flashpoint_The_Raid", "VehicleImprovementProject" ],
+    "OptionallyDependsOn": [],
+
+    "Manifest": [  
+		{ "Path": "vehicleMerge", "Type": "AdvancedJSONMerge" }
+    ]
+}

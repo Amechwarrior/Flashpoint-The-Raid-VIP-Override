@@ -1,0 +1,85 @@
+{
+    "TargetID": "vehicledef_CARRIER_LRM_fp_theRaid",
+    "Instructions": [
+        {
+            "JSONPath": "$.VehicleTags.items",
+            "Action": "Replace",
+            "Value": [
+				"unit_vehicle",
+				"unit_heavy",
+				"unit_tracks",
+				"unit_release",
+				"unit_vehicle_carrier",
+				"unit_lance_support",
+				"unit_indirectFire",
+				"BLACKLISTED"
+			]
+        },
+        {
+            "JSONPath": "Locations",
+            "Action": "ArrayAdd",
+            "Value": {
+				"Location" : "Turret",
+				"CurrentArmor" : 50,
+				"CurrentInternalStructure" : 30,
+				"AssignedArmor" : 50,
+				"DamageLevel" : "Functional"
+			}
+        },
+        {
+            "JSONPath": "inventory",
+            "Action": "Replace",
+            "Value": [
+				{
+				 "ComponentDefID" : "Weapon_LRM_LRM20_2-Delta",
+				 "ComponentDefType" : "Weapon",
+				 "MountedLocation" : "Turret",
+				 "HardpointSlot" : 0,
+				 "DamageLevel" : "Functional"
+				},
+				{
+				 "ComponentDefID" : "Weapon_LRM_LRM20_2-Delta",
+				 "ComponentDefType" : "Weapon",
+				 "MountedLocation" : "Turret",
+				 "HardpointSlot" : 1,
+				 "DamageLevel" : "Functional"
+				},
+				{
+				 "ComponentDefID" : "Weapon_LRM_LRM20_2-Delta",
+				 "ComponentDefType" : "Weapon",
+				 "MountedLocation" : "Turret",
+				 "HardpointSlot" : 2,
+				 "DamageLevel" : "Functional"
+				},
+				{
+				 "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
+				 "ComponentDefType" : "AmmunitionBox",
+				 "MountedLocation" : "Rear",
+				 "HardpointSlot" : -1,
+				 "DamageLevel" : "Functional"
+				},
+				{
+				 "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
+				 "ComponentDefType" : "AmmunitionBox",
+				 "MountedLocation" : "Rear",
+				 "HardpointSlot" : -1,
+				 "DamageLevel" : "Functional"
+				},
+				{
+				 "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
+				 "ComponentDefType" : "AmmunitionBox",
+				 "MountedLocation" : "Rear",
+				 "HardpointSlot" : -1,
+				 "DamageLevel" : "Functional"
+				},
+				{
+				 "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
+				 "ComponentDefType" : "AmmunitionBox",
+				 "MountedLocation" : "Rear",
+				 "HardpointSlot" : -1,
+				 "DamageLevel" : "Functional"
+				}
+			]
+        }
+    ]
+}
