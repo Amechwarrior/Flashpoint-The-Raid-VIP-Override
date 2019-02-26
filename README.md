@@ -9,7 +9,7 @@ The LRM/SRM carriers have had "Turret" locations added and gear moved to match t
     Copy "Flashpoint-The-Raid-VIP-Override" folder in to Mods folder created for ModTek.
     
 ### Required Mods:
-This mod needs ModTek and Flashpoint Stock Photos to work:
+This mod needs ModTek, Flashpoint: The Raid and VIP to work:
 
 ModTek - https://github.com/BattletechModders/ModTek/releases
 
@@ -19,4 +19,4 @@ Flashpoint: The Raid - https://github.com/Amechwarrior/Flashpoint-The-Raid/relea
 
 Vehicle Improvement Project - https://www.nexusmods.com/battletech/mods/255
 
-This mod only works when both of the above mods are present.
+This mod only loads when both of the above mods are present.
