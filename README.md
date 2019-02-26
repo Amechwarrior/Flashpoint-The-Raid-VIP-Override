@@ -1,4 +1,4 @@
-# Flashpoint-The-Raid-VIP-Override
+# Flashpoint: The Raid - VIP Override
 
 This is a optional add-on for "Flashpoint: The Raid" when used with the Vehicle Improvement Project to prevent fatal loading errors.
 ### Description:
