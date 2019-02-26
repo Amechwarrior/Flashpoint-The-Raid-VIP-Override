@@ -1,6 +1,6 @@
 # Flashpoint-The-Raid-VIP-Override
 
-This is a optional add-on for "Flashpoint: The Raid" when used with the Vehicle Improvment Project to prevent fatal loading errors.
+This is a optional add-on for "Flashpoint: The Raid" when used with the Vehicle Improvement Project to prevent fatal loading errors.
 ### Description:
 
 The LRM/SRM carriers have had "Turret" locations added and gear moved to match the Vehicle Improvement Projects' formatting.  Without this, players will not be able to load mission IV or V when using both "The Raid" and VIP.
